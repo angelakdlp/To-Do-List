@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.TD {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.TDI {
+    padding: 5px;
+    width: 60rem;
+}
+
+.task {
+    border: 1px solid gray;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.task-text {
+    flex: 1;
+    text-align: center;
+}
+
+.B1{
+    background-color: rgb(190, 204, 255);
+    color: white;
+}
+.delete-button, .finish-button {
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border: 1px solid gray;
+
+}
+
+.delete-button {
+    background-color: rgb(209, 119, 119);
+    margin: 0px 10px 0px 0px;
+}
+
+.finish-button {
+    background-color: rgb(128, 196, 128);
+}
